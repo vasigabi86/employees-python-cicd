@@ -4,4 +4,3 @@ Language: Python
 Push test
 Pull test
 Kiskutya
-Kisegér
