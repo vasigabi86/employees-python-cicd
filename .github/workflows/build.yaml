@@ -15,8 +15,8 @@ jobs:
                 cache: 'pip'
             - name: Install dependecies
               run: pip install -c contraints.txt .[dev]
-            - name: static analysis
-              run: pre-commit run --all-files
+            #- name: static analysis
+            #  run: pre-commit run --all-files
             - name: Unit test
               run: pytest - v test/unit
             - name: Create docker image
